@@ -375,7 +375,7 @@ public class BasicTest {
                 .assertThat().cookie("__cfduid","d2a891c5d6887b158e10b2b53392224bd1499947663");
 */
 
-/*
+
 
         // java 7 versions
         given()
@@ -391,7 +391,7 @@ public class BasicTest {
 
         given().get("http://jsonplaceholder.typicode.com/photos/1")
                 .then().body("thumbnailUrl", endsWith("92c952"));
-*/
+
 
 
         // some time measuring/performance
