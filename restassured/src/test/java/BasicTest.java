@@ -393,7 +393,7 @@ public class BasicTest {
                 .then().body("thumbnailUrl", endsWith("92c952"));
 */
 
-    /*
+
         // some time measuring/performance
         long myT = given().get("http://jsonplaceholder.typicode.com/photos/").time();
         System.out.println("Time(ms): "+myT);
@@ -401,8 +401,8 @@ public class BasicTest {
         myT = given().get("http://jsonplaceholder.typicode.com/photos/").timeIn(TimeUnit.MICROSECONDS);
         System.out.println("Time(micro seconds): "+myT);
 
-        given().get("http://jsonplaceholder.typicode.com/photos/").then().time(lessThan(80L));
-        */
+        given().get("http://jsonplaceholder.typicode.com/photos/").then().time(lessThan(120L));
+
 
 
 
