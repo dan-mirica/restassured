@@ -26,5 +26,4 @@ steps:
     serviceConnection: 'azureDevopsApiSC'
     Pipeline: 'Build'
     Branch: 'master'
-    project: dan-mirica.selenium-cucumber
-    releaseDefinition: trigger-build
+    project: Prestio
