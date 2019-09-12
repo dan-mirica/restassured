@@ -27,3 +27,4 @@ steps:
     Pipeline: 'Build'
     Branch: 'master'
     project: dan-mirica.selenium-cucumber
+    releaseDefinition: trigger-build
