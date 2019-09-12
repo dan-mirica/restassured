@@ -20,3 +20,10 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package -DskipTests'
+
+- task: TriggerPipeline@1
+  inputs:
+    serviceConnection: 'azureDevopsApiSC'
+    Pipeline: 'Build'
+    Branch: 'master'
+    project: dan-mirica.selenium-cucumber
